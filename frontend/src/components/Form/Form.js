@@ -12,7 +12,7 @@ function Form() {
 
     const {title, amount, date, category, description} = inputState;
 
-    const handleInput = name => {
+    const handleInput = name => {}
     return (
         <FormStyled>
             <div className='input-control'>
