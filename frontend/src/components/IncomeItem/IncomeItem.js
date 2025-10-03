@@ -83,8 +83,8 @@ function IncomeItem({
                     <div className="btn-con">
                         <Button 
                             icon={trash}
-                            bPad={'1rem'}
-                            bRad={'50%'}
+                            bPad={'0.7rem'}
+                            bRad={'55%'}
                             bg={'var(--primary-color'}
                             color={'#fff'}
                             iColor={'#fff'}
