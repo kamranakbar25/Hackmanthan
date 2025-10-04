@@ -8,7 +8,7 @@ const BASE_URL = "http://localhost:5000/api/v1/";
 const GlobalContext = React.createContext()
 
 export const GlobalProvider = ({children}) => {
-
+ 
     const [incomes, setIncomes] = useState([])
     const [expenses, setExpenses] = useState([])
     const [error, setError] = useState(null)
@@ -83,7 +83,7 @@ export const GlobalProvider = ({children}) => {
             return new Date(b.createdAt) - new Date(a.createdAt)
         })
 
-        return history.slice(0, 3)
+        return history.slice(0, 5)
     }
 
 
